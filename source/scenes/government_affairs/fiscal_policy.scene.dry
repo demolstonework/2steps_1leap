@@ -71,7 +71,7 @@ Cutting taxes benefits most the rich and middle-class, who pay more taxes than t
 @turn_on_printer
 title: Hilferding found a magic money printer which runs in secret so no need to worry about inflation :3
 subtitle: +100 budget  
-on-arrival: budget +=100; 
+on-arrival: budget +=100; hilferding_printer += 1;
 
 Wait this actually works?!? cool
 
