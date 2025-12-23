@@ -247,8 +247,8 @@ go-to: international_relations
 title: Implement the Centrist unity plan.
 subtitle: The full might of United International is behind us.
 view-if: true_centrist_adopted == 1 and united_international >= 1
-choose-if: united_international = 1
-unavailable-subtitle: Good job getting his far, but it's not possible in this version. 
-on-arrival: eu_progress += 1;unemployed -= 3.5 if unemployed >= 6; unemployed -= 1.2 if works_councils >= 3; workers += 2 if nationalization_progress < 2; budget -= nationalize_budget; works_program += 1; workers_spd += 8*(1-dissent); unemployed_spd += 5*(1-dissent); coalition_dissent += 1; dvp_relation -= 4; left_dissent -= 5; new_middle_spd += 2; old_middle_spd += 3; economy_goal_completed += 1; inflation += 2; economic_growth += 1.7 if economic_growth < 5;
+choose-if: united_international = 3
+unavailable-subtitle: Leftist infighting still exists, be a good Sisyphus and fix that
+on-arrival: eu_progress += 1; nationalization_adopted = 1; neorevplan_adopted = 1;
 
 Now that we stand united, we can finally address the economic crisis. What shall we do?
