@@ -39,7 +39,7 @@ Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
 choose if: Severing_gun = 1
 unavailable-subtitle: Severing has yet to test his suggestion in prussia, try it there first :D
 on-arrival: interior_police_loyalty += 1;
-Title: Severing wants to repeat his prussian strategy 
+title: Severing wants to repeat his prussian strategy 
 As with the Prussian state police Severing made a liberal amount of threats 
 
 Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
