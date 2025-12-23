@@ -11,6 +11,7 @@ new-page: true
 Hilferding is an economist and a disciple of Karl Kautsky. Originating from Vienna, Austria, he trained as a medical doctor, but later became involved in Marxist economics as a discipline. He has been the lead ideologist of our party since the Heidelberg Program of 1925.
 
 - @against_right_and_left
+- @printer
 - @toleration
 - @finance_ministry_
 - @economic_democracy_
@@ -24,6 +25,13 @@ choose-if: advisor_action_timer = 0
 on-arrival: advisor_action_timer = 5; advisor_action_time = time; center_strength += 10; left_strength -= 5; labor_strength -= 5; neorevisionist_strength -= 5; center_dissent -= 10
 
 We have reduced the strength of the dissident factions in the party.
+
+@printer
+title: Print money
+subtitle: Hilferding uses a money printer
+on-arrival: resources += 100
+
+Why does he have this!?!?!
 
 @toleration
 title: Defending Toleration
