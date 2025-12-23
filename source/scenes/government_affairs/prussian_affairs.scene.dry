@@ -41,6 +41,7 @@ The police have historically been overrun with reactionaries, and we are trying 
 
 Current police loyalty: [+ prussian_police_loyalty : loyalty +].
 
+
 @police_obedience
 view-if: prussian_police_loyalty < 1
 on-arrival: prussian_police_loyalty += 1; Severing_gun = 1
