@@ -13,7 +13,7 @@ Prussia, by far the largest and most important state in Germany, is governed by 
 We can enact policies in Prussia.
 
 - @police_loyalty: Bolster the loyalty of the police.
-- @police_"loyalty": Guarantee the loyalty of the police.
+- @police_obedience: Guarantee the loyalty of the police.
 - @bribe_police: Use nepotism to corrupt the police.
 - @police_strength: Recruit additional police.
 - @arm_police: Arm the police.
@@ -41,12 +41,13 @@ The police have historically been overrun with reactionaries, and we are trying 
 
 Current police loyalty: [+ prussian_police_loyalty : loyalty +].
 
-@police_"loyalty"
+@police_obedience
 view-if: prussian_police_loyalty < 1
 on-arrival: prussian_police_loyalty += 1
+Title: Severing has an unorthodox suggestion to "fix" the police loyality 
 
 # increase police loyalty
-The police have historically been overrun with reactionaries, to fix this we gave severing a gun and a mission, somehow it worked
+The police have historically been overrun with reactionaries, to fix this we gave Severing a gun and a mission, somehow it worked
 
 Current police loyalty: [+ prussian_police_loyalty : loyalty +].
 
