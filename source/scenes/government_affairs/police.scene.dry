@@ -13,7 +13,7 @@ The Interior Ministry controls internal security throughout the German Republic.
 As with the state police units and the Reichswehr, the internal police tends to be reactionary, and has serious issues with loyalty to the elected government of the Republic.
 
 - @loyalty: Improve the loyalty of the Interior Ministry forces.
-- @"loyalty": Force the interior police to become spd members
+- @obedience: Force the interior police to become spd members
 - @corrupt_interior: Buy their loyalty through bribery and blackmail.
 - @investigate_corruption: Investigate corruption by big businesses.
 - @investigate_far_right: Investigate illegal activity among the far right.
@@ -35,10 +35,12 @@ As with the Prussian state police, there are measures we can take to root out re
 Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
 
 
-@"loyalty"
-on-arrival: interior_police_loyalty += 100;
-
-As with the Prussian state police, there are measures we can take to root out reactionary and anti-democratic sentiment in the police. We can improve training and recruiting procedures, and identify and remove known fascists and the like. [? if interior_police_loyalty >= 0.7: We can create internal affairs committees to root out right-wing informers. ?][? if interior_police_loyalty >= 0.8: Yet the eternal question continues to haunt us: who watches the watchmen? ?]
+@obedience
+choose if: Severing_gun = 1
+unavailable-subtitle: Severing has yet to test his suggestion in prussia, try it there first :D
+on-arrival: interior_police_loyalty += 1;
+Title: Severing wants to repeat his prussian strategy 
+As with the Prussian state police Severing made a liberal amount of threats 
 
 Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
 
