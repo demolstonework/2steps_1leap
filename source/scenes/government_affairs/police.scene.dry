@@ -36,7 +36,7 @@ Current interior police loyalty: [+ interior_police_loyalty : loyalty +]
 
 
 @obedience
-choose if: Severing_gun = 1
+choose if: Severing_gun > 1
 unavailable-subtitle: Severing has yet to test his suggestion in prussia, try it there first :D
 on-arrival: interior_police_loyalty += 1;
 title: Severing wants to repeat his prussian strategy 
