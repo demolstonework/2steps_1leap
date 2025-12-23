@@ -12,7 +12,7 @@ Seeing the worsening economic situation in Germany, the rising threat of the Naz
 
 - @reformist_plan: The Center backs the Reformist plan.
 - @left_plan: The Center backs the Left plan.
-- @synthesis_plan: The Center backs a synthesis of the Left and Reformist plans.
+- @center_plan: The Center comes with its own plan.
 
 @reformist_plan
 view-if: reformist_strength >= left_strength and reformist_strength >= center_strength
@@ -28,9 +28,9 @@ on-arrival: reformist_dissent += 5; reformist_strength -= 5; left_strength += 10
 
 The Centrists have backed the Left economic plan for large-scale nationalizations of key and idle industries. This has increased support for the plan within the party and will make it an easier idea to swallow for the rest of the party, though the Reformists remain opposed.
 
-@synthesis_plan
+@center_plan
 view-if: center_strength >= left_strength and center_strength >= reformist_strength
 choose-if: center_strength >= left_strength and center_strength >= reformist_strength
-on-arrival: center_strength += 5; center_dissent -= 10; synthesis_support += 1
+on-arrival: center_strength += 5; center_dissent -= 10; centrist_reform +=1;
 
-The Centrists have, in an attempt to unite the party behind a single economic plan, combined the Left and Reformist concepts into a single plan, calling for public works without deficit spending to be combined with nationalizations of key and idle industries. Whether this plan will be adopted by the party or not remains to be seen.
+The Centrists have created a plan which would, by unity of the international working parties would fix the crisis.
