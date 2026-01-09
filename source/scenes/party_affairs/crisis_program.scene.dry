@@ -113,7 +113,7 @@ We hold off on making a decision on economic policy, awaiting more information. 
 @support_true_centrist
 subtitle: A global crisis demands a global response.
 view-if: (centrist_reform >= 1 and historical_mode == 0)
-choose-if: fr_uk_seen >= 0 and scandi_seen >= 0 and austria_seen >= 0 and comintern_seen >= 0 and us_seen >= 0
+choose-if: fr_uk_contacted >= 0 and scandi_contacted >= 0 and austria_contacted >= 0 and comintern_contacted >= 0 and us_contacted >= 0
 unavailable-subtitle: We need more connections to socialist and communist parties across the world. [? if not us_seen: Yes, even that one. ?]
 on-arrival: center_strength += 6; center_dissent += 3; labor_dissent += 3; reformist_dissent += 1; true_centrist_support += 1.5
 go-to: true_adopted if true_centrist_support >= 2; true_support if true_centrist_support < 2
